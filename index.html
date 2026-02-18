@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Patterns Masterclass</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>Patterns<span class="highlight">.io</span></h1>
+                <p>CTO's Playbook</p>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search patterns..." id="searchInput">
+            </div>
+            <div class="pattern-list" id="patternList">
+                <!-- Populated by JS -->
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area" id="contentArea">
+            <div class="welcome-screen">
+                <h2>Welcome to the Pattern Architect</h2>
+                <p>Select a design pattern from the sidebar to begin your journey.</p>
+                <div class="quick-stats">
+                    <div class="stat-card">
+                        <h3>30+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Real World</h3>
+                        <p>War Stories</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Interactive</h3>
+                        <p>Visual Learning</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
